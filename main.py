@@ -1,0 +1,7 @@
+my_sting = input('Введите произвольный текст: ')
+print('Количество символов в строке:' ,len(my_sting))
+print('Текст в верхнем регистре:', my_sting.upper())
+print('Текст в нижнем регистре:', my_sting.lower())
+print('Без пробелов:', my_sting.replace(' ', ''))
+print("Первый символ строки -" , my_sting[0])
+print("Последний символ строки -" , my_sting[-1])
